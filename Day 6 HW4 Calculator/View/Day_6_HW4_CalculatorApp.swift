@@ -11,7 +11,7 @@ import SwiftUI
 struct Day_6_HW4_CalculatorApp: App {
     var body: some Scene {
         WindowGroup {
-            CalculatorView(calculatorBrain: CalculatorBrain())
+            CalculatorView(calculatorViewModel: CalculatorViewModel())
         }
     }
 }

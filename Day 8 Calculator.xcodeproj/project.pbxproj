@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		3F675BE32CA34605003DABB5 /* Day 6 HW4 Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day 6 HW4 Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F675BE32CA34605003DABB5 /* Day 8 Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day 8 Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,7 +40,7 @@
 		3F675BE42CA34605003DABB5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F675BE32CA34605003DABB5 /* Day 6 HW4 Calculator.app */,
+				3F675BE32CA34605003DABB5 /* Day 8 Calculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F675BE22CA34605003DABB5 /* Day 6 HW4 Calculator */ = {
+		3F675BE22CA34605003DABB5 /* Day 8 Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F675BF12CA34606003DABB5 /* Build configuration list for PBXNativeTarget "Day 6 HW4 Calculator" */;
+			buildConfigurationList = 3F675BF12CA34606003DABB5 /* Build configuration list for PBXNativeTarget "Day 8 Calculator" */;
 			buildPhases = (
 				3F675BDF2CA34605003DABB5 /* Sources */,
 				3F675BE02CA34605003DABB5 /* Frameworks */,
@@ -63,11 +63,11 @@
 			fileSystemSynchronizedGroups = (
 				3F675BE52CA34605003DABB5 /* Day 6 HW4 Calculator */,
 			);
-			name = "Day 6 HW4 Calculator";
+			name = "Day 8 Calculator";
 			packageProductDependencies = (
 			);
 			productName = "Day 6 HW4 Calculator";
-			productReference = 3F675BE32CA34605003DABB5 /* Day 6 HW4 Calculator.app */;
+			productReference = 3F675BE32CA34605003DABB5 /* Day 8 Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3F675BDE2CA34605003DABB5 /* Build configuration list for PBXProject "Day 6 HW4 Calculator" */;
+			buildConfigurationList = 3F675BDE2CA34605003DABB5 /* Build configuration list for PBXProject "Day 8 Calculator" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F675BE22CA34605003DABB5 /* Day 6 HW4 Calculator */,
+				3F675BE22CA34605003DABB5 /* Day 8 Calculator */,
 			);
 		};
 /* End PBXProject section */
@@ -305,7 +305,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F675BDE2CA34605003DABB5 /* Build configuration list for PBXProject "Day 6 HW4 Calculator" */ = {
+		3F675BDE2CA34605003DABB5 /* Build configuration list for PBXProject "Day 8 Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F675BEF2CA34606003DABB5 /* Debug */,
@@ -314,7 +314,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F675BF12CA34606003DABB5 /* Build configuration list for PBXNativeTarget "Day 6 HW4 Calculator" */ = {
+		3F675BF12CA34606003DABB5 /* Build configuration list for PBXNativeTarget "Day 8 Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F675BF22CA34606003DABB5 /* Debug */,

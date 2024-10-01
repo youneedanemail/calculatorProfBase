@@ -18,12 +18,12 @@ struct CalculatorButton: View {
     let buttonSpec: ButtonSpec
     let playSound: Bool
     let size: CGSize
-    let calculatorBrain: CalculatorBrain
+    let calculatorViewModel: CalculatorViewModel
 
     var body: some View {
         Button {
             if playSound {
-                calculatorBrain.clickButton()
+                calculatorViewModel.clickButton()
             }
 
             // NEEDSWORK: take some action with this button

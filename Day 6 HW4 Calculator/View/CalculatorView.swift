@@ -26,13 +26,13 @@ struct CalculatorView: View {
         static let displayFontSize = 90.0
     }
 
-    var calculatorBrain: CalculatorBrain
+    var calculatorViewModel: CalculatorViewModel
 
     @State private var playSound: Bool = false
 
     var body: some View {
         GeometryReader { geometry in
-            ZStack(alignment: .bottom) {
+            ZStack {
                 Rectangle()
                     .fill(.black)
                     .ignoresSafeArea(.all)
@@ -53,7 +53,7 @@ struct CalculatorView: View {
                                     buttonSpec: buttonSpec,
                                     playSound: playSound,
                                     size: geometry.size,
-                                    calculatorBrain: calculatorBrain
+                                    calculatorViewModel: calculatorViewModel
                                 )
                             }
                         }

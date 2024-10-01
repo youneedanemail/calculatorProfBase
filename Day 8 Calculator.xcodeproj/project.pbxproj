@@ -11,9 +11,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		3F675BE52CA34605003DABB5 /* Day 6 HW4 Calculator */ = {
+		3F675BE52CA34605003DABB5 /* Day 8 Calculator */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Day 6 HW4 Calculator";
+			path = "Day 8 Calculator";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		3F675BDA2CA34605003DABB5 = {
 			isa = PBXGroup;
 			children = (
-				3F675BE52CA34605003DABB5 /* Day 6 HW4 Calculator */,
+				3F675BE52CA34605003DABB5 /* Day 8 Calculator */,
 				3F675BE42CA34605003DABB5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				3F675BE52CA34605003DABB5 /* Day 6 HW4 Calculator */,
+				3F675BE52CA34605003DABB5 /* Day 8 Calculator */,
 			);
 			name = "Day 8 Calculator";
 			packageProductDependencies = (

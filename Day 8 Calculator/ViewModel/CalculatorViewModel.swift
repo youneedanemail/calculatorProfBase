@@ -1,6 +1,6 @@
 //
 //  CalculatorViewModel.swift
-//  Day 6 HW4 Calculator
+//  Day 8 Calculator
 //
 //  Created by Stephen Liddle on 9/26/24.
 //

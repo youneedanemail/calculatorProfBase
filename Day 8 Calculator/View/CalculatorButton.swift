@@ -35,7 +35,7 @@ struct CalculatorButton: View {
                         width: buttonSize(for: size, spanWidth: buttonSpec.type.spanWidth),
                         height: buttonSize(for: size, spanWidth: 1)
                     )
-                Text(buttonSpec.label)
+                Text(buttonSpec.symbol.rawValue)
                     .font(displayFont(for: size))
                     .foregroundStyle(buttonSpec.type.foregroundColor)
             }

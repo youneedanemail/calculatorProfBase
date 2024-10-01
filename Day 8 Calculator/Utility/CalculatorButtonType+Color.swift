@@ -1,18 +1,13 @@
 //
-//  CalculatorButtonType.swift
+//  CalculatorButtonType+Color.swift
 //  Day 8 Calculator
 //
-//  Created by Stephen Liddle on 9/26/24.
+//  Created by Stephen Liddle on 10/1/24.
 //
 
 import SwiftUI
 
-enum CalculatorButtonType {
-    case utility
-    case compute
-    case number
-    case doublewide
-
+extension CalculatorButtonType {
     var backgroundColor: Color {
         switch self {
             case .utility:

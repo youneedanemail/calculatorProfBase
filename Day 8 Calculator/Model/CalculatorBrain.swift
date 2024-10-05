@@ -4,6 +4,7 @@
 //
 //  Created by Stephen Liddle on 10/1/24.
 //
+// Calculator engine
 
 import Foundation
 

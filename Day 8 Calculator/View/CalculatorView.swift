@@ -30,7 +30,7 @@ struct CalculatorView: View {
                         isOn: $calculatorViewModel.preferences.soundIsEnabled)
                         .foregroundStyle(.white)
                     Spacer()
-                    Text("1,000")
+                    Text(calculatorViewModel.displayText)
                         .font(.system(size: Constants.displayFontSize, weight: .thin))
                         .foregroundStyle(.white)
                         .padding(.trailing, DrawingConstants.buttonSpacing)

@@ -16,9 +16,9 @@ struct CalculatorButton: View {
     }
 
     let buttonSpec: ButtonSpec
-    let size: CGSize
+    let size: CGSize           //cg means core graphics
     let calculatorViewModel: CalculatorViewModel
-
+    
     var body: some View {
         Button {
             calculatorViewModel.handleButtonTap(for: buttonSpec)

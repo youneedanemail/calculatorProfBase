@@ -36,13 +36,9 @@ struct CalculatorBrain {
 
     // MARK: - Constants
     
-    private let operations: [OperationSymbol: Operation] = [  // I can use OperationSymbol as a key in the dictionary because it is hashable.  Dictionaries have to have hashable info
+    private let operations: [OperationSymbol: Operation] = [
         
-        // inline anonymus function same as .binary({ (leftOperand: Double, rightOperand: Double) in return leftOperand / rightOperand     may not be exact
-        
-        // .binary refers to the binary case in enum Operations
-        
-        .divide:        .binary({ $0 / $1 }),   // first variable / second variable  refers to variables by position
+        .divide:        .binary({ $0 / $1 }),
         .add:           .binary({ $0 + $1 }),
         .multiply:      .binary({ $0 * $1 }),
         .subtract:      .binary({ $0 - $1 }),
@@ -50,13 +46,22 @@ struct CalculatorBrain {
         .percent:       .unary({ $0 / 100 }),
         .calculate:     .calculate
         
+        // I can use OperationSymbol as a key in the dictionary because it is hashable.  Dictionaries have to have hashable info
+            
+        // inline anonymus function same as .binary({ (leftOperand: Double, rightOperand: Double) in return leftOperand / rightOperand     may not be exact
+        
+        // first variable / second variable  refers to variables by position
+            
+        // .binary refers to the binary case in enum Operations
+        
         // because of type infernce it is the same as OperationSymbol.calculate: .
     ]
 
     // MARK: - Properties
 
     var accumulator: Double? = 0
-    private var pendingOperation: PendingBinaryOperation?  // optional because when you start the calculator, you don't have one
+    private var pendingOperation: PendingBinaryOperation?
+    // optional because when you start the calculator, you don't have one
     
     mutating func clearAccumulator() {
         accumulator = nil

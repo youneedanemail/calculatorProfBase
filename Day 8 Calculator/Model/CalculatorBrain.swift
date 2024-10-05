@@ -63,12 +63,12 @@ struct CalculatorBrain {
     private var pendingOperation: PendingBinaryOperation?
     // optional because when you start the calculator, you don't have one
     
-    // gives program access to the private variable above to display left operand
+        // gives program access to the private variable above to display left operand
     var pendingLeftOperand: Double? {
         pendingOperation?.leftOperand
     }
     
-    // gives program access to the symbol so we can change the visual color when clicked
+        // gives program access to the symbol so we can change the visual color when clicked
     var pendingSymbol: OperationSymbol? {
         pendingOperation?.symbol
     }
